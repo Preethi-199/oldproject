@@ -1,0 +1,42 @@
+<html>
+  <body>
+
+  
+<header>
+
+  <!-- our main logo -->
+  <a id="logo" href="index.html">
+      <img src="assets/main_logo.png" alt="Logo">
+      <span style="font-size:180%; color: brown; font-family:Georgia, 'Times New Roman', Times, serif;">BusPassCompany.com</span>
+  </a>
+
+  <!-- main navigation links -->
+  <nav>
+      <ul>
+          <li><a routerLink="/registerLink">Register</a></li>
+          <li><a routerLink="/loginLink">Login</a></li>
+          <li><a routerLink="/bookedTicketLink">Search Ticket</a></li>
+          <li><a routerLink="/cancelLink">Cancel Ticket</a></li>
+          <li><a routerLink="/aboutPageLink">About</a></li>
+          <li><a href="#myLink">Contact Us</a></li>
+       </ul>
+  </nav>
+
+</header>
+
+<router-outlet></router-outlet>
+
+<footer id="myLink">
+  <img src="assets/main_logo.png" alt="Footer Logo">
+  <span>BusPassCompany.com<br>Copyright &copy; 2020-2030 </span>
+
+  <div id="details">   
+          <p> BusPassCompany</p>
+          <p> Customer Care: +917395932660 </p>
+          <p> 74,4th street,Ranga Nagar,Chrompet,</p>
+          <p>Chennai, TamilNadu 600044</p>
+  </div>
+</footer>
+
+</body>
+</html>
